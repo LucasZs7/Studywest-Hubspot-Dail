@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "objectId": 123456,
+      "title": "Twilio Dialer",
+      "link": "https://lucaszs7.github.io/Studywest-Hubspot-Dail/?dealId=123456",
+      "created": "2025-02-17",
+      "priority": "HIGH",
+      "properties": [
+        {
+          "label": "Status",
+          "dataType": "STATUS",
+          "value": "Active",
+          "optionType": "SUCCESS"
+        }
+      ],
+      "actions": [
+        {
+          "type": "IFRAME",
+          "width": 400,
+          "height": 200,
+          "uri": "https://lucaszs7.github.io/Studywest-Hubspot-Dail/?dealId={objectId}",
+          "label": "Open Dialer"
+        }
+      ]
+    }
+  ]
+}
